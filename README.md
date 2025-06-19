@@ -1,66 +1,73 @@
-📊 NumPy Practice Sets
-This repository contains practice scripts to help you master NumPy, Python's powerful numerical computing library. Each script focuses on a specific operation or concept, with clear examples.
+# 📊 NumPy Practice Sets
 
-📁 Folder Structure & Topics
-Filename	Topic
-add_operation.py	Adding elements to arrays (insert, append)
-aggregation.py	Aggregate functions (sum, mean, min, max, etc.)
-broadcasting.py	Broadcasting rules and operations
-create.py	Creating arrays (zeros, ones, arange, linspace, etc.)
-delete_operation.py	Deleting elements from arrays
-missing_values_handling.py	Handling missing or NaN values
-properties&operations.py	Basic array properties and element-wise operations
-reshaping&manupulating.py	Reshaping and manipulating arrays
-slicing&indexing.py	Slicing, indexing, and subsetting arrays
-stacking&spiting.py	Stacking and splitting arrays
-vectorisation.py	Vectorized operations for performance
+This folder contains a collection of Python practice scripts to help you learn and master **NumPy**, a fundamental Python library for numerical computing. Each script covers an essential NumPy concept with simple examples.
 
-🗂️ How to Use
-Clone or Download
+---
 
-bash
-Copy
-Edit
-git clone <repo-url>
-or simply download the folder.
+## 📁 Folder Structure & Topics
 
-Install NumPy
+| Filename                     | Topic                                          |
+| ---------------------------- | ---------------------------------------------- |
+| `add_operation.py`           | Adding elements: insert & append               |
+| `aggregation.py`             | Aggregation: sum, mean, min, max, etc.         |
+| `broadcasting.py`            | Broadcasting rules and operations              |
+| `create.py`                  | Creating arrays: zeros, ones, arange, linspace |
+| `delete_operation.py`        | Deleting elements from arrays                  |
+| `missing_values_handling.py` | Handling missing or NaN values                 |
+| `properties&operations.py`   | Array properties and element-wise operations   |
+| `reshaping&manupulating.py`  | Reshaping and manipulating arrays              |
+| `slicing&indexing.py`        | Slicing, indexing, subsetting arrays           |
+| `stacking&spiting.py`        | Stacking and splitting arrays                  |
+| `vectorisation.py`           | Vectorized operations for efficiency           |
 
-bash
-Copy
-Edit
-pip install numpy
-Run Any Script
+---
 
-bash
-Copy
-Edit
-python add_operation.py
-Replace add_operation.py with any script you want to practice.
+## ✅ How to Use
 
-✅ Key Learning Outcomes
-Create and manipulate arrays efficiently.
+1. **Install NumPy:**
 
-Use insertion, deletion, and appending operations.
+   ```bash
+   pip install numpy
+   ```
 
-Perform aggregate calculations.
+2. **Run Any Script:**
 
-Understand and apply broadcasting.
+   ```bash
+   python filename.py
+   ```
 
-Reshape, slice, index, stack, and split arrays.
+   Replace `filename.py` with the script you want to practice.
 
-Handle missing data gracefully.
+---
 
-Use vectorized operations for faster computation.
+## 🎯 What You'll Learn
 
-📌 Notes
-Each script demonstrates one or more related concepts with easy-to-follow examples.
+* How to create, inspect, and modify arrays.
+* Adding, inserting, and deleting elements.
+* Performing aggregation and descriptive statistics.
+* Applying broadcasting for element-wise operations.
+* Slicing and indexing arrays for subsetting data.
+* Reshaping arrays to fit different use cases.
+* Stacking multiple arrays vertically and horizontally.
+* Splitting arrays into smaller parts.
+* Handling missing data effectively.
+* Using vectorization for fast computations.
 
-Scripts are independent; you can run them in any order.
+---
 
-Perfect for building a solid foundation in NumPy for data science, machine learning, or data engineering.
+## ⚡ Requirements
 
-📚 Requirements
-Python 3.x
+* Python 3.x
+* NumPy
 
-NumPy
+---
+
+## 📌 Tips
+
+* Each script is self-contained and beginner-friendly.
+* Practice them in any order or focus on your areas of interest.
+* Ideal for building a strong NumPy foundation for data science, machine learning, and data engineering.
+
+---
+
+Happy Learning! 🚀
